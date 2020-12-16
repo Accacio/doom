@@ -1,0 +1,17 @@
+* Configuração Doom emacs
+
+#+begin_src bash
+sudo apt install git
+sudo snap install emacs --classic
+sudo snap install ripgrep --classic
+#+end_src
+
+clonar doom-emacs
+#+begin_src bash
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
+git clone https://github.com/Accacio/doom ~/.doom.d
+~/.emacs.d/bin/doom install
+~/.emacs.d/bin/doom sync
+#+end_src
+
+=M-x pdf-tools-install=
