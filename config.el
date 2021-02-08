@@ -78,6 +78,8 @@
            :head "#+TITLE: %<%Y-%m-%d>")))
 )
 
+(setq org-re-reveal-klipsify-src t)
+
 (after! org-kanban
   :config
 (defun org-kanban//link-for-heading (heading file description)
